@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "orm model with leveldb,useful unity functions,and more to help start up a new iOS project"
 
-  s.description  = "a framework that package userful modules,codes,make iOS development quickly and easy. "
+  s.description  = "a framework that package userful modules,codes,make iOS development quickly and easy. with orm model and helpful unity functions."
 
   s.homepage     = "https://github.com/sailaway/iOS-dev-framework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/sailaway/iOS-dev-framework.git" }
+  s.source       = { :git => "https://github.com/sailaway/iOS-dev-framework.git",:tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
